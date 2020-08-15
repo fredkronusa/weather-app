@@ -15,7 +15,7 @@ interface IHeaderComponent {
   setIsCelsius: (isCelsius: boolean) => void;
 }
 
-export const MetricsSwitch: React.FC<IHeaderComponent> = ({ setIsCelsius }) => {
+export const MetricsSwitchComponent: React.FC<IHeaderComponent> = ({ setIsCelsius }) => {
   return (
     <div>
       <Input
@@ -39,4 +39,4 @@ export const MetricsSwitch: React.FC<IHeaderComponent> = ({ setIsCelsius }) => {
   );
 };
 
-export default MetricsSwitch;
+export default MetricsSwitchComponent;

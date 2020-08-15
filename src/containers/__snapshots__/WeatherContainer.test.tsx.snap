@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WeatherContainer /> should match snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="sc-fzoLag kSlmIv"
+    >
+      <div>
+        <label
+          class="sc-AxmLO fGmgQu"
+          for="citySearch"
+        >
+          Search Weather
+        </label>
+        <input
+          class="sc-fzozJi ffhvoi"
+          id="citySearch"
+          name="citySearch"
+          type="text"
+          value="Melbourne"
+        />
+        <input
+          class="sc-fzoLsD hNoulZ"
+          type="button"
+          value="GO"
+        />
+      </div>
+      <div>
+        <input
+          checked=""
+          class="sc-fzplWN caKVrL"
+          id="celsius"
+          name="unitType"
+          type="radio"
+          value="celsius"
+        />
+        <label
+          class="sc-fzpans dFlUAH"
+          for="celsius"
+        >
+          ℃
+        </label>
+        <input
+          class="sc-fzplWN caKVrL"
+          id="fahrenheit"
+          name="unitType"
+          type="radio"
+          value="fahrenheit"
+        />
+        <label
+          class="sc-fzpans dFlUAH"
+          for="fahrenheit"
+        >
+          ℉
+        </label>
+      </div>
+    </div>
+    <img
+      alt="loading"
+      class="sc-fzoXzr kiyFbV"
+      src="images/spinner.gif"
+    />
+  </div>
+</DocumentFragment>
+`;

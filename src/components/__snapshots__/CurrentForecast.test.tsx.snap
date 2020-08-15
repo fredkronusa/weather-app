@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<CurrentForecast /> should match snapshot 1`] = `
+exports[`<CurrentForecastComponent /> should match snapshot 1`] = `
 <DocumentFragment>
   <div
     class="sc-Axmtr jKxFqi"
@@ -34,9 +34,9 @@ exports[`<CurrentForecast /> should match snapshot 1`] = `
       />
       <div
         aria-label="current temperature in Celsius is "
-        class="sc-AxiKw jFSTDB"
+        class="sc-AxiKw fwKYUU"
       >
-        12null℃
+        12℃
       </div>
     </div>
     <div

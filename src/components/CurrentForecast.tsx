@@ -23,6 +23,11 @@ const Temperature = styled.div`
   margin-top: 40px;
   font-size: ${fonts.large};
   float: left;
+  margin-right: 50px;
+  /* TODO: handle this */
+  @media only screen and (max-width: 3760px) {
+    margin-left: 40px;
+  }
 `;
 
 const Img = styled.img`
@@ -52,7 +57,7 @@ interface ICurrentForecastComponent {
   isCelsius: boolean;
 }
 
-export const CurrentForecast: React.FC<ICurrentForecastComponent> = ({
+export const CurrentForecastComponent: React.FC<ICurrentForecastComponent> = ({
   currentForecast,
   isCelsius,
 }) => {
@@ -89,4 +94,4 @@ export const CurrentForecast: React.FC<ICurrentForecastComponent> = ({
   );
 };
 
-export default CurrentForecast;
+export default CurrentForecastComponent;

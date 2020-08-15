@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import CurrentForecast from "./CurrentForecast";
+import CurrentForecastComponent from "./CurrentForecast";
 import { ICurrentForecast } from "../interfaces/Weather";
 import { render } from "@testing-library/react";
 
@@ -18,11 +18,11 @@ const currentForecastMockData: ICurrentForecast = {
   uv: "12",
 };
 
-describe("<CurrentForecast />", () => {
+describe("<CurrentForecastComponent />", () => {
   // SNAPSHOT
   it("should match snapshot", async () => {
     const { asFragment } = render(
-      <CurrentForecast
+      <CurrentForecastComponent
         currentForecast={currentForecastMockData}
         isCelsius={true}
       />

@@ -16,6 +16,7 @@ const Ul = styled.ul`
   justify-content: space-between;
   max-width: 1200px;
   padding-left: 0;
+  margin: 0 20px;
 `;
 
 const Li = styled.li`

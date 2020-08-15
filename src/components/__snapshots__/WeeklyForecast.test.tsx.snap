@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WeeklyForecastComponent /> should match snapshot 1`] = `
+<DocumentFragment>
+  <ul
+    aria-label="weekly weather"
+    class="sc-AxjAm hcIsG"
+  >
+    <li
+      class="sc-AxirZ ePBdqv"
+    >
+      <p
+        class="sc-AxiKw eUIEFs"
+      >
+        Today
+      </p>
+      <img
+        alt="foggy"
+        class="sc-AxheI gXEPjd"
+        src="/images/icons/123.png"
+      />
+      <span
+        aria-label="Max Temp"
+        class="sc-AxhCb zmOJK"
+      >
+        15°
+      </span>
+      <span
+        aria-label="Min Temp"
+        class="sc-AxhCb sc-AxhUy dLvNBx"
+      >
+        12°
+      </span>
+      <span
+        aria-label="UX Index"
+        class="sc-AxgMl gtQttU"
+      >
+        UV Index 3
+      </span>
+    </li>
+    <li
+      class="sc-AxirZ ePBdqv"
+    >
+      <p
+        class="sc-AxiKw eUIEFs"
+      >
+        Saturday
+      </p>
+      <img
+        alt="foggy"
+        class="sc-AxheI gXEPjd"
+        src="/images/icons/123.png"
+      />
+      <span
+        aria-label="Max Temp"
+        class="sc-AxhCb zmOJK"
+      >
+        15°
+      </span>
+      <span
+        aria-label="Min Temp"
+        class="sc-AxhCb sc-AxhUy dLvNBx"
+      >
+        12°
+      </span>
+      <span
+        aria-label="UX Index"
+        class="sc-AxgMl gtQttU"
+      >
+        UV Index 3
+      </span>
+    </li>
+  </ul>
+</DocumentFragment>
+`;

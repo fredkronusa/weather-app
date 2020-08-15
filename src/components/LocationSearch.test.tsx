@@ -1,15 +1,15 @@
 import * as React from "react";
 
-import LocationSearch from "./LocationSearch";
+import LocationSearchComponent from "./LocationSearch";
 import { render } from "@testing-library/react";
 
 const mockSetLocation = jest.fn();
 
-describe("<LocationSearch />", () => {
+describe("<LocationSearchComponent />", () => {
   // SNAPSHOT
   it("should match snapshot", async () => {
     const { asFragment } = render(
-      <LocationSearch
+      <LocationSearchComponent
         setLocation={() => mockSetLocation()}
         location="melbourne"
       />
@@ -20,7 +20,7 @@ describe("<LocationSearch />", () => {
 
   it("should set the input field ", async () => {
     const { container } = render(
-      <LocationSearch
+      <LocationSearchComponent
         setLocation={() => mockSetLocation()}
         location="melbourne"
       />

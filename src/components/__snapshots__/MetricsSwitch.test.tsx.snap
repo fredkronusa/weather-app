@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MetricsSwitchComponent /> should match snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <input
+      checked=""
+      class="sc-AxirZ hXXLCO"
+      id="celsius"
+      name="unitType"
+      type="radio"
+      value="celsius"
+    />
+    <label
+      class="sc-AxjAm fEPdEE"
+      for="celsius"
+    >
+      ℃
+    </label>
+    <input
+      class="sc-AxirZ hXXLCO"
+      id="fahrenheit"
+      name="unitType"
+      type="radio"
+      value="fahrenheit"
+    />
+    <label
+      class="sc-AxjAm fEPdEE"
+      for="fahrenheit"
+    >
+      ℉
+    </label>
+  </div>
+</DocumentFragment>
+`;

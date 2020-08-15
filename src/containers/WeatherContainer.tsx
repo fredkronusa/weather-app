@@ -11,9 +11,9 @@ import {
   initialWeeklyForecast,
 } from "../config/config";
 
-import CurrentForecast from "../components/CurrentForecast";
-import LocationSearch from "../components/LocationSearch";
-import { MetricsSwitch } from "../components/MetricsSwitch";
+import CurrentForecastComponent from "../components/CurrentForecast";
+import LocationSearchComponent from "../components/LocationSearch";
+import MetricsSwitchComponent from "../components/MetricsSwitch";
 import WeeklyForecastComponent from "../components/WeeklyForecast";
 import { colors } from "../common/styles";
 import styled from "styled-components";
@@ -71,13 +71,16 @@ const WeatherContainer = () => {
   return (
     <div>
       <HeaderWrapper>
-        <LocationSearch location={location} setLocation={setLocation} />
-        <MetricsSwitch setIsCelsius={setIsCelsius} />
+        <LocationSearchComponent
+          location={location}
+          setLocation={setLocation}
+        />
+        <MetricsSwitchComponent setIsCelsius={setIsCelsius} />
       </HeaderWrapper>
 
       {!loading ? (
         <>
-          <CurrentForecast
+          <CurrentForecastComponent
             currentForecast={currentForecast}
             isCelsius={isCelsius}
           />

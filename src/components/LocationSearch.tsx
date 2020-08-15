@@ -25,7 +25,7 @@ interface IHeaderComponent {
   location: string;
 }
 
-export const LocationSearch: React.FC<IHeaderComponent> = ({
+export const LocationSearchComponent: React.FC<IHeaderComponent> = ({
   setLocation,
   location,
 }) => {
@@ -52,4 +52,4 @@ export const LocationSearch: React.FC<IHeaderComponent> = ({
   );
 };
 
-export default LocationSearch;
+export default LocationSearchComponent;

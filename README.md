@@ -1,5 +1,3 @@
-
-
 ## Considerations
 
 ### visual elements
@@ -12,11 +10,11 @@
 
 ### missing data
 
-- pollen information was not found with current set of data, so I've used UV
+- pollen information was not found with current set of data, so I've used UV (but if we need another call to get it, can be done)
 
 ### search options
 
-- Using the [https://www.api.weatherbit.io](https://www.api.weatherbit.io). The search only current works within australia. A proper select component needs to be created and inject the full meta from [https://www.weatherbit.io/api/meta](https://www.weatherbit.io/api/meta)  with something like react-select
+- Using the [https://www.api.weatherbit.io](https://www.api.weatherbit.io). The search only current works within australia. A proper select component needs to be created and inject the full meta from [https://www.weatherbit.io/api/meta](https://www.weatherbit.io/api/meta) with something like react-select
 
 ### testing issues
 
@@ -54,6 +52,5 @@ The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
 
 #### This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
