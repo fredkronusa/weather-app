@@ -11,6 +11,7 @@ const Label = styled.label`
 const Input = styled.input`
   font-size: ${fonts.medium};
   margin-right: 20px;
+  width: 150px;
 `;
 
 const Button = styled.input`

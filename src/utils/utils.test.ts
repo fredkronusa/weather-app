@@ -28,6 +28,7 @@ const currentForecastMockData = {
   wind_cdir: "NE",
   ob_time: "2020-08-15",
   temp: 12,
+  uv: 2,
 };
 
 describe("createWeeklyForecastData", () => {

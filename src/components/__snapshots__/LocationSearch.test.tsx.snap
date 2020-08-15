@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LocationSearch /> should match snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <label
+      class="sc-AxjAm tnjaK"
+      for="citySearch"
+    >
+      Search Weather
+    </label>
+    <input
+      class="sc-AxirZ fnMjvo"
+      id="citySearch"
+      name="citySearch"
+      type="text"
+      value="melbourne"
+    />
+    <input
+      class="sc-AxiKw vmVWB"
+      type="button"
+      value="GO"
+    />
+  </div>
+</DocumentFragment>
+`;

@@ -73,5 +73,5 @@ export const getTemperature = (
   isCurrent?: boolean
 ): string => {
   const temp = isCelsius ? temperature : (temperature * 9) / 5 + 32;
-  return `${temp.toFixed()} ${isCurrent ? "" : "\u00b0"}`;
+  return `${temp.toFixed()}${isCurrent ? "" : "\u00b0"}`;
 };

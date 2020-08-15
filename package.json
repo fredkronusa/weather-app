@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
+    "@testing-library/react": "^10.4.8",
     "@testing-library/user-event": "^7.1.2",
     "@types/jest": "^24.0.0",
     "@types/node": "^12.0.0",
@@ -22,6 +22,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+    "lint": "eslint \"*/**/*.{js,ts,tsx}\" --quiet --fix"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -36,6 +37,16 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
+    ]
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{ts,tsx}",
+      "!src/components/*.test.{ts,tsx}",
+      "!src/react-app-env.d.ts",
+      "!src/index.tsx",
+      "!src/serviceWorker.ts",
+      "!src/interfaces/*"
     ]
   }
 }

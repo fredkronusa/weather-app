@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CurrentForecast /> should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-Axmtr jKxFqi"
+  >
+    <h2
+      class="sc-AxjAm jGuQqP"
+    >
+      Melbourne
+    </h2>
+    <span
+      class="sc-AxirZ jvZyRy"
+    >
+      Tuesday, April 15th
+    </span>
+    <span
+      class="sc-AxirZ jvZyRy"
+    >
+      foggy
+    </span>
+  </div>
+  <div
+    class="sc-AxhUy iiarDM"
+  >
+    <div
+      class="sc-AxgMl cgbCRu"
+    >
+      <img
+        alt="foggy"
+        class="sc-AxhCb wCzUk"
+        src="/images/icons/123.png"
+      />
+      <div
+        aria-label="current temperature in Celsius is "
+        class="sc-AxiKw jFSTDB"
+      >
+        12null℃
+      </div>
+    </div>
+    <div
+      class="sc-AxgMl sc-AxheI bhRSaq"
+    >
+      <span
+        class="sc-AxirZ jvZyRy"
+      >
+        Precipitation: 12%
+      </span>
+      <span
+        class="sc-AxirZ jvZyRy"
+      >
+        Humidity: 15%
+      </span>
+      <span
+        class="sc-AxirZ jvZyRy"
+      >
+        Windy: my wind
+      </span>
+      <span
+        class="sc-AxirZ jvZyRy"
+      >
+        Uv: 12
+      </span>
+    </div>
+  </div>
+</DocumentFragment>
+`;
