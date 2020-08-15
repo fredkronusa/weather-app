@@ -24,7 +24,7 @@ const Temperature = styled.div`
   font-size: ${fonts.large};
   float: left;
   margin-right: 50px;
-  /* TODO: handle this */
+  /* TODO: handle this on a app level */
   @media only screen and (max-width: 3760px) {
     margin-left: 40px;
   }
