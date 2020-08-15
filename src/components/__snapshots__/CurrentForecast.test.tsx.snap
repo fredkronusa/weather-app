@@ -34,7 +34,7 @@ exports[`<CurrentForecastComponent /> should match snapshot 1`] = `
       />
       <div
         aria-label="current temperature in Celsius is "
-        class="sc-AxiKw fwKYUU"
+        class="sc-AxiKw lePKYj"
       >
         12℃
       </div>

@@ -58,7 +58,7 @@ exports[`<WeatherContainer /> should match snapshot 1`] = `
     </div>
     <img
       alt="loading"
-      class="sc-fzoXzr kiyFbV"
+      class="sc-fzoXzr kJnIkw"
       src="images/spinner.gif"
     />
   </div>

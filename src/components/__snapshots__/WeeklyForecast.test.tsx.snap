@@ -4,7 +4,7 @@ exports[`<WeeklyForecastComponent /> should match snapshot 1`] = `
 <DocumentFragment>
   <ul
     aria-label="weekly weather"
-    class="sc-AxjAm hcIsG"
+    class="sc-AxjAm kFRSvt"
   >
     <li
       class="sc-AxirZ ePBdqv"
