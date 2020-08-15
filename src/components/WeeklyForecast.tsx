@@ -14,7 +14,6 @@ const Ul = styled.ul`
   flex-wrap: wrap;
   list-style-type: none;
   justify-content: space-between;
-  max-width: 1200px;
   padding-left: 0;
   margin: 0 20px;
 `;
