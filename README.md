@@ -4,6 +4,10 @@
 
 - styles (colors and fonts) spinner, input elements can be exported into a component library and styled in a better way
 
+### error handling
+
+- happy path only, not found city/region/typo exception error :(
+
 ### data storage
 
 - instead of having currentForecast and weeklyForecast, we can combine those into a single forecast object
