@@ -1,28 +1,32 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### Considerations
 
-## visual elements
+## Considerations
+
+### visual elements
 
 - styles (colors and fonts) spinner, input elements can be exported into a component library and styled in a better way
 
-## data storage
+### data storage
 
 - instead of having currentForecast and weeklyForecast, we can combine those into a single forecast object
 
-## missing data
+### missing data
 
 - pollen information was not found with current set of data, so I've used UV
 
-## search options
+### search options
 
-- Using the api.weatherbit.io. The search only current works within australia. A proper select component needs to be created and inject the full meta from [https://www.weatherbit.io/api/meta](https://www.weatherbit.io/api/meta)  with something like react-select
+- Using the [https://www.api.weatherbit.io](https://www.api.weatherbit.io). The search only current works within australia. A proper select component needs to be created and inject the full meta from [https://www.weatherbit.io/api/meta](https://www.weatherbit.io/api/meta)  with something like react-select
 
-## testing issues
+### testing issues
 
 - coverage not working with current react create app version [https://github.com/testing-library/react-testing-library/issues/663](https://github.com/testing-library/react-testing-library/issues/663) so, sorry, need more time to investigate
 
 - testing can be improved but components are "almost" dumb and stateless so snapshot is covering a lot and tests for utils (which are the really functional/unit) tests are at 100%.
+
+### better code quality
+
+- husky (pre commits) could be added
 
 ## Available Scripts
 
@@ -50,3 +54,6 @@ The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+
+#### This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
