@@ -2,6 +2,11 @@
 
 ![header image](https://raw.github.com/fredkronusa/weather-app/master/readme.png)
 
+## AWS deployed code
+
+Visit [https://master.d2ok3nicqkn4rp.amplifyapp.com/](https://master.d2ok3nicqkn4rp.amplifyapp.com/0) to view production build.
+
+
 ## Considerations
 
 ### visual elements
